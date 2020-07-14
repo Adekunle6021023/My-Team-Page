@@ -1,0 +1,44 @@
+cption text
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+flippy text
+
+font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+who we are
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+footer etxt
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #A9A9A9;
+
+creative crew
+
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -0.045em;
