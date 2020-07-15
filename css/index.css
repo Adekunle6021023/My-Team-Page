@@ -11,31 +11,104 @@ body {
     flex-direction: column;
 }
 
+.main-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-text-box-one {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.header-text-box-two {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+
 .team-info-container {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 20px;
     row-gap: 10px;
+    justify-content: space-around;
 }
 
 .info-box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .info-box img {
-    width: 90%;
+    width: 100%;
 }
 
 
 .text-box-one {
-    line-height: 27px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -0.045em;
 }
 
 .text-box-two {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: uppercase;
     writing-mode: vertical-lr;
     position: relative;
     top: 0px;
+    right: 0px;
 }
 
+.box-two, .box-five {
+    margin-top: 3rem;
+}
 
+.main-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #A9A9A9
+}
+
+@media screen and (max-width:768px) {
+    .team-info-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 10px;
+        justify-content: space-around;
+        margin: 2rem
+}
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        margin: 1rem;
+}
+
+    .box-two, .box-four, .box-six {
+        margin-top: 3rem;
+}
+
+    .box-five {
+        margin-top: 0;
+    }
+}
